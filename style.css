@@ -1,0 +1,14 @@
+.state.button.accept {
+    background-color: blue !important;
+    border-color: blue !important;
+}
+
+.state.button.reject {
+    border-color: darkorange !important;
+    background-color: darkorange !important;
+}
+
+.is_release_past_deadline .preview {
+    background-color: darkorange !important;
+    border-color: darkorange !important;
+}

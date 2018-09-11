@@ -1,0 +1,14 @@
+{
+  "name": "Pivotal Tracker (Red Green Deficiency",
+  "version": "1.0",
+  "description": "Make Pivotal Tracker accessible to those with Red Green Deficiency",
+  "content_scripts": [
+    {
+      "matches": ["https://www.pivotaltracker.com/*"],
+      "css": [
+        "style.css"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}
