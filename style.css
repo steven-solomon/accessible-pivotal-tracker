@@ -1,14 +1,18 @@
 .state.button.accept {
-    background-color: blue !important;
-    border-color: blue !important;
+    background-color: rgb(4, 87, 195) !important;
+    border-color: rgb(4, 87, 195) !important;
 }
 
 .state.button.reject {
-    border-color: darkorange !important;
-    background-color: darkorange !important;
+    border-color: rgb(224, 158, 3) !important;
+    background-color: rgb(224, 158, 3) !important;
 }
 
 .is_release_past_deadline .preview {
-    background-color: darkorange !important;
-    border-color: darkorange !important;
+    background-color: rgb(224, 158, 3) !important;
+    border-color: rgb(224, 158, 3) !important;
+}
+
+.is_release_past_deadline .name:before {
+    content: '(Deadline at risk) ' !important;
 }
